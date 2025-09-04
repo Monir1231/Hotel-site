@@ -1,0 +1,48 @@
+import React from "react";
+import { latestCardData } from "./CardData";
+
+
+
+const LatestCard = () => {
+ 
+
+  return (
+    
+        <div className=" w-[90%] mx-auto lg:my-28 md:my-20 my-14   rounded-md px-6 py-10">
+          <div>
+            <h4 className="lg:text-[32px] md:text-2xl text-xl text-[#1E1E1E] font-bold pt-4 pb-10">
+             The latest trends
+            </h4>
+          </div>
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 ">
+            {latestCardData.map((item, index) => (
+              <div key={index} className="text-white bg-[#F8F8F8] rounded-lg">
+                <img className=" w-full" src={item.img} />
+                <div className="p-2">
+                  <h4 className="text-[19px] text-black font-semibold py-2">
+                    {item.title}
+                  </h4>
+                  <p className="text-[#8F8F8F] text-sm">{item.desc}</p>
+
+                  <div className="flex items-center justify-between pt-4 pb-2 ">
+                     <div className="flex items-center gap-2  text-sm text-black">
+                       <img src={item.star} />
+                      <img src={item.star} />
+                      <img src={item.star} />
+                      <img src={item.star} />
+                      <img src={item.grayStar} />
+                     </div>
+                       <p className=" text-black text-sm font-samibold">{item.reviews}</p>
+                    </div>
+                  
+                  </div>
+                </div>
+            ))}
+          </div>
+        </div>
+     
+   
+  );
+};
+
+export default LatestCard;
