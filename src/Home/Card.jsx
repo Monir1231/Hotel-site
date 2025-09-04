@@ -17,13 +17,12 @@ const HostelCard = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <div className=" w-[85%] mx-auto lg:my-28 md:my-20 my-14  bg-[#1677BD] rounded-md px-6 py-10">
-          <div>
-            <h4 className="lg:text-[32px] md:text-2xl text-xl text-white pt-4 pb-10">
+        <div className=" w-[85%] mx-auto lg:mt-28 md:mt-20 mt-14  bg-[#1677BD] rounded-md px-6 py-10">
+          <div>            <h4 className="lg:text-[32px] md:text-2xl text-xl text-white pt-4 pb-10">
               Find the best restaurant ratings below
             </h4>
           </div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 ">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 ">
             {CardAlldata.map((item, index) => (
               <div key={index} className=" text-white bg-white rounded-lg">
                 <img className=" w-full" src={item.img} />

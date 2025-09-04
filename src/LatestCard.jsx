@@ -8,13 +8,13 @@ const LatestCard = () => {
 
   return (
     
-        <div className=" w-[90%] mx-auto lg:my-28 md:my-20 my-14   rounded-md px-6 py-10">
+        <div className=" w-[90%] mx-auto lg:my-10 md:my-20 my-14   rounded-md px-6 py-10">
           <div>
             <h4 className="lg:text-[32px] md:text-2xl text-xl text-[#1E1E1E] font-bold pt-4 pb-10">
              The latest trends
             </h4>
           </div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 ">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 ">
             {latestCardData.map((item, index) => (
               <div key={index} className="text-white bg-[#F8F8F8] rounded-lg">
                 <img className=" w-full" src={item.img} />
