@@ -137,3 +137,47 @@
         reviews:"5.0 (876 reviews)"
     }
 ]
+
+
+
+export const avtivitiesData =[
+    {
+        menLogo:"Vector.png",
+        title:"Leslie sakho",
+        Location:"Canada, toronto",
+         star:"star.png",
+         date:"09/11/2023",
+         des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout. The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+          img1: "img-1.png",
+         img2: "img-2.png",
+         img3: "img-3.png",
+          link:"Discover"
+     
+    },
+    {
+        menLogo:"Vector.png",
+        title:"Leslie sakho",
+        Location:"Canada, toronto",
+         star:"star.png",
+         date:"09/11/2023",
+         des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout. The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+        img1: "img-1.png",
+         img2: "img-2.png",
+         img3: "img-3.png",
+          link:"Discover"
+     
+    },
+    {
+        menLogo:"Vector.png",
+        title:"Leslie sakho",
+        Location:"Canada, toronto",
+         star:"star.png",
+         date:"09/11/2023",
+         des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout. The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+         img1: "img-1.png",
+         img2: "img-2.png",
+         img3: "img-3.png",
+          link:"Discover"
+     
+    }
+]

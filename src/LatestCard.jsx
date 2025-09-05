@@ -14,7 +14,7 @@ const LatestCard = () => {
              The latest trends
             </h4>
           </div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 ">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 ">
             {latestCardData.map((item, index) => (
               <div key={index} className="text-white bg-[#F8F8F8] rounded-lg">
                 <img className=" w-full" src={item.img} />
@@ -39,6 +39,16 @@ const LatestCard = () => {
                 </div>
             ))}
           </div>
+
+
+          <div className="text-center mt-12">
+            <h4 className="text-[22px] font-semibold">Discover more cool restaurants</h4>
+            <div>
+              <button className=" bg-[#1677BD] text-white px-4 py-2 rounded-full mt-4">See more</button>
+            </div>
+          </div>
+
+
         </div>
      
    

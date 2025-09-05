@@ -22,7 +22,7 @@ const HostelCard = () => {
               Find the best restaurant ratings below
             </h4>
           </div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 ">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 ">
             {CardAlldata.map((item, index) => (
               <div key={index} className=" text-white bg-white rounded-lg">
                 <img className=" w-full" src={item.img} />
