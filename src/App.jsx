@@ -4,6 +4,8 @@ import  HostelCard from "./Home/Card";
 import LatestCard from "./LatestCard";
 import MyFeedback from "./MyFeedback";
 import Avtivitie from "./Component/Avtivities";
+import MyFooter from "./Component/Footer";
+
 
 
 
@@ -15,6 +17,8 @@ const App = () => {
       <LatestCard/>
       <MyFeedback/>
      <Avtivitie/>
+    <MyFooter/>
+    
      
       
     </>

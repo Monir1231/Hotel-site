@@ -1,5 +1,6 @@
  export const CardAlldata =[
     {
+        id: 1 ,
         img:"img-1.png",
         title:"Bottega",
         desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
@@ -7,7 +8,8 @@
         reviews:"5.0 (876 reviews)"
         
     },
-    {
+    {   
+         id: 2 ,
         img:"img-2.png",
         title:"Bottega",
         desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
@@ -15,7 +17,8 @@
         reviews:"5.0 (876 reviews)",
        
     },
-    {
+    {    
+         id: 3 ,
         img:"img-3.png",
         title:"Bottega",
         desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
@@ -23,12 +26,15 @@
         reviews:"5.0 (876 reviews)"
     },
     {
+         id: 4,
         img:"img-4.png",
         title:"Bottega",
         desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
          star:"star.png",
         reviews:"5.0 (876 reviews)"
     },
+   
+        
 ]
 
 
