@@ -26,11 +26,9 @@ const LatestCard = () => {
 
                   <div className="flex items-center justify-between pt-4 pb-2 ">
                      <div className="flex items-center gap-2  text-sm text-black">
-                       <img src={item.star} />
-                      <img src={item.star} />
-                      <img src={item.star} />
-                      <img src={item.star} />
-                      <img src={item.grayStar} />
+                     {[...Array(5)].map((_,i)=>(
+                      <img key={i} src={item.star} alt="star" className="w-4 h-4"/>
+                     ))}
                      </div>
                        <p className=" text-black text-sm font-samibold">{item.reviews}</p>
                     </div>

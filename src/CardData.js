@@ -1,41 +1,53 @@
- export const CardAlldata =[
+ export const CardAlldata = [
     {
-        id: 1 ,
-        img:"img-1.png",
-        title:"Bottega",
-        desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-        star:"star.png",
-        reviews:"5.0 (876 reviews)"
-        
-    },
-    {   
-         id: 2 ,
-        img:"img-2.png",
-        title:"Bottega",
-        desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-          star:"star.png",
-        reviews:"5.0 (876 reviews)",
-       
-    },
-    {    
-         id: 3 ,
-        img:"img-3.png",
-        title:"Bottega",
-        desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-         star:"star.png",
-        reviews:"5.0 (876 reviews)"
+      id: 1,
+      img: "img-1.png",
+      title: "Bella Italia",
+      desc: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      star: "star.png",
+      reviews: "5.0 (876 reviews)",
     },
     {
-         id: 4,
-        img:"img-4.png",
-        title:"Bottega",
-        desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-         star:"star.png",
-        reviews:"5.0 (876 reviews)"
+      id: 2,
+      img: "img-2.png",
+      title: "Little Shucker",
+      desc: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      star: "star.png",
+      reviews: "5.0 (876 reviews)",
     },
-   
-        
-]
+    {
+      id: 3,
+      img: "img-3.png",
+      title: "Marafuku Ramen",
+      desc: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      star: "star.png",
+      reviews: "5.0 (876 reviews)",
+    },
+    {
+      id: 4,
+      img: "img-4.png",
+      title: "Bottega",
+      desc: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      star: "star.png",
+      reviews: "5.0 (876 reviews)",
+    },
+    {
+      id: 5,
+      img: "img-1.png",
+      title: "india",
+      desc: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      star: "star.png",
+      reviews: "5.0 (876 reviews)",
+    },
+    {
+      id: 6,
+      img: "img-3.png",
+      title: "Austuralia",
+      desc: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      star: "star.png",
+      reviews: "5.0 (876 reviews)",
+    },
+  ];
 
 
 

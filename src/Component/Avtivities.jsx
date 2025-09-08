@@ -4,7 +4,7 @@ import { FaArrowRight ,FaArrowLeft} from "react-icons/fa";
 
 const Avtivitie = () => {
   return (
-    <div className="w-[98%] mx-auto lg:my-10 md:my-20 my-14   rounded-md px-2 py-10">
+    <div className="w-[98%] mx-auto lg:my-10 md:my-20 my-20   rounded-md px-2 py-10 relative ">
       <div className="flex flex-col lg:flex-row md:flex-row gap-6 items-center justify-between">
       {avtivitiesData.map((item,index)=>(
         <div key={index} className="bg-[#F8F8F8] p-4 rounded-md">
@@ -42,7 +42,7 @@ const Avtivitie = () => {
 
         </div>
       ))}
-       <button  className=" absolute right-14 -mt-10 transform translate-x-6 flex items-center justify-center text-black bg-white shadow rounded-full w-9 h-9 z-10  duration-300 transition-all hover:cursor-pointer">
+       <button  className=" absolute xl:right-14  xl:-mt-10 -mt-13  transform translate-x-6 flex items-center justify-center text-black bg-white shadow rounded-full w-9 h-9 z-10  duration-300 transition-all hover:cursor-pointer">
                     <FaArrowRight />
                   </button>
       </div>

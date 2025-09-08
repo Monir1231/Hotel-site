@@ -9,6 +9,7 @@ import MyFooter from "./Component/Footer";
 
 
 
+
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
       <MyFeedback/>
      <Avtivitie/>
     <MyFooter/>
+ 
     
      
       
