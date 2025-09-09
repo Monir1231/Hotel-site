@@ -1,5 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+
+
 import {
   Navbar,
   NavbarBrand,
@@ -18,6 +21,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+    <section>
     <section className="my-3 border-b-1 border-b-[#DCDCDC] md:pb-4 pb-1">
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
@@ -36,11 +40,15 @@ export default function Header() {
         <NavbarContent justify="center">
           <NavbarItem>
            
-            <div className="flex items-center justify-between  boder border-1 border-[#7A7A7A] rounded-full md:w-[500px] w-[300px] py-1  px-1 ">
+           <div className="flex items-center justify-between  boder border-1 border-[#7A7A7A] rounded-full md:w-[500px] w-[300px] py-1  px-1 ">
              <input type="text" placeholder="restaurant, hotel, service...." className=" outline-none md:text-sm text-[9px] px-1.5" />
               <input type="text" placeholder="| Singapour..." className=" outline-none md:text-sm text-[9px]" />
-              <img className="md:w-fit w-7" src="SearchLogo.png"/>
-            </div>
+              <NavLink to="/search">
+                <img className="md:w-fit w-7" src="SearchLogo.png"/>
+              </NavLink>
+            </div> 
+
+            
 
           </NavbarItem>
         </NavbarContent>
@@ -76,6 +84,13 @@ export default function Header() {
 
 
       </Navbar>
+
+      <div>
+      
+      </div>
+    </section>
+
+    
     </section>
   );
 }
