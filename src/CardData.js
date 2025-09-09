@@ -275,7 +275,7 @@ export const datalink = [
     },
     {
         img:"img-2.png",
-        title:"Bottega",
+        title:"Apple",
         desc:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
           star:"star.png",
            grayStar:"star-2.png",
