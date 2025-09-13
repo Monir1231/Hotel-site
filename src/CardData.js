@@ -362,3 +362,140 @@ export const HosterData = [
     date:"7j/7, 08:00 - 22:00"
   }
 ];
+
+
+export const Informationdata =[
+  {
+    dataimg:"call.png",
+    title:"See the menu",
+    socalimg:"facebook.png"
+  },
+  {
+    dataimg:"call.png",
+    title:"See the menu",
+    socalimg:"facebook.png"
+  },
+  {
+    dataimg:"call.png",
+    title:"See the menu",
+    socalimg:"facebook.png"
+  },
+  {
+    dataimg:"call.png",
+    title:"See the menu",
+    socalimg:"facebook.png"
+  },
+  {
+    dataimg:"call.png",
+    title:"See the menu",
+  },
+]
+
+export const MyRatdata=[
+  {
+    Logo:"RatLogo.png",
+    title:"Overall rating",
+    star: "star.png",
+    reviews: "5.0 (876 reviews)",
+
+  }
+]
+
+
+export const Linedata =[
+  {
+    lineimg:"line-1.png",
+    lineText:"5 stars"
+  },
+  {
+    lineimg:"line-2.png",
+    lineText:"0 stars"
+  },
+  {
+    lineimg:"line-3.png",
+  lineText:"0 stars"
+  },
+  {
+    lineimg:"line-4.png",
+   lineText:"0 stars"
+  },
+  {
+    lineimg:"line-5.png",
+   lineText:"0 stars"
+  },
+]
+
+export const ReviewData =[
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"monir",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+  {
+    Logo:"man.png",
+    title:"Wei Jie",
+    location:"Singapore, Little india",
+    star: "star.png",
+    date:"29/11/2023",
+    des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
+  },
+]
