@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import { datalink } from "../CardData";
+
+console.log(datalink)
 
 import {
   Navbar,
@@ -16,17 +19,16 @@ import {
 import MYSearch from "./Common/Search";
 import { FaEarthAmericas } from "react-icons/fa6";
 
-import { useNavigate } from "react-router-dom";
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [query, setQuery] = useState("");
+  const [query, setquery] = useState("");
   const [loc, setLoc] = useState("");
+
   const navigate = useNavigate();
 
   const handleSearch = () => {
     navigate(`/search?q=${query}&loc=${loc}`);
-  }
+  };
 
   return (
     <section>
@@ -47,25 +49,29 @@ export default function Header() {
           </NavbarContent>
           <NavbarContent justify="center">
             <NavbarItem>
-             <div className="flex items-center justify-between border border-[#7A7A7A] rounded-full md:w-[500px] w-[300px] py-1 px-1">
-      <input
-        type="text"
-        placeholder="restaurant, hotel, service...."
-        className="outline-none md:text-sm text-[9px] px-1.5"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="| Singapore..."
-        className="outline-none md:text-sm text-[9px]"
-       
-        onChange={(e) => setLoc(e.target.value)}
-      />
-      <button onClick={handleSearch}>
-        <img className="md:w-fit w-7" src="SearchLogo.png" alt="search"/>
-      </button>
-    </div>
+              <div className="flex items-center justify-between border border-[#7A7A7A] rounded-full md:w-[500px] w-[300px] py-1 px-1">
+                <input
+                  type="text"
+                  placeholder="restaurant, hotel, service...."
+                  className="outline-none md:text-sm text-[9px] px-1.5"
+                  value={query}
+                  onChange={(e) => setquery(e.target.value)}
+                />
+                <input
+                  type="text"
+                  placeholder="| Singapore..."
+                  className="outline-none md:text-sm text-[9px]"
+                  value={loc}
+                  onChange={(e) => setLoc(e.target.value)}
+                />
+                <button onClick={handleSearch}>
+                  <img
+                    className="md:w-fit w-7"
+                    src="SearchLogo.png"
+                    alt="search"
+                  />
+                </button>
+              </div>
             </NavbarItem>
           </NavbarContent>
           <NavbarContent justify="end">
@@ -91,8 +97,17 @@ export default function Header() {
           </NavbarMenu>
         </Navbar>
 
-        <div></div>
+        
       </section>
-    </section>
+      <div>
+         {datalink.map((item,index)=>{
+          <div key={index}>
+            <img src={item.img}/>
+            <p>{item.title}</p>
+          </div>
+         })}
+        </div>
+       </section>
+    
   );
 }
