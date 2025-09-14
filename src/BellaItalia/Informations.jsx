@@ -11,9 +11,9 @@ const Informations = () => {
          {Informationdata.map((item,index)=>(
             <div key={index}>
           
-            <div className='flex items-center gap-2 py-3'>
+            <div className='flex items-center gap-4 py-4'>
             <img className='lg:size-6 size-5' src={item.dataimg}/>
-            <a className='text-lg '>{item.title}</a>
+            <a className='text-lg'>{item.title}</a>
             </div>
 
              

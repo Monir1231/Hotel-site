@@ -371,23 +371,23 @@ export const Informationdata =[
     socalimg:"facebook.png"
   },
   {
-    dataimg:"call.png",
-    title:"See the menu",
+    dataimg:"nick.png",
+    title:"+847 87 37 29 01",
     socalimg:"facebook.png"
   },
   {
     dataimg:"call.png",
-    title:"See the menu",
+    title:"Singapour, Bishan",
+    socalimg:"facebook.png"
+  },
+  {
+    dataimg:"nick.png",
+    title:"7j/7, 08:00 - 22:00",
     socalimg:"facebook.png"
   },
   {
     dataimg:"call.png",
-    title:"See the menu",
-    socalimg:"facebook.png"
-  },
-  {
-    dataimg:"call.png",
-    title:"See the menu",
+    title:"www.bellaitalia.com",
   },
 ]
 
@@ -499,3 +499,4 @@ export const ReviewData =[
     des:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout."
   },
 ]
+

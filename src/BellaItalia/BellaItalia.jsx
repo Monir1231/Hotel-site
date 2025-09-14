@@ -5,6 +5,7 @@ import Gallary from './Gallary'
 import Informations from './Informations'
 import MyRating from './Rating'
 import Review from './Review'
+import Discover from './Discover'
 
 
 const MyBellaItalia = () => {
@@ -16,6 +17,7 @@ const MyBellaItalia = () => {
         <Informations/>
         <MyRating/>
         <Review/>
+        <Discover/>
     </>
   )
 }
